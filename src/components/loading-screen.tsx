@@ -83,7 +83,7 @@ const LoadingScreen = ({ onComplete }: LoadingScreenProps) => {
             className="absolute w-32 h-32 object-contain animate-lotus-from-right"
             // style={{ animationDelay: "0.8s", animationFillMode: "both", right: "25%" }}
             // style={{ animationDelay: "0.8s", animationFillMode: "both" }}
-            style={{ animationDelay: "0.8s" }}
+            style={{ animationDelay: "0.4s" }}
           />
         </div>
         <div className="flex gap-1.5">
