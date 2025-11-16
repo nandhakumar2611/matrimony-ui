@@ -285,3 +285,31 @@ button:focus-visible {
     @apply bg-background text-foreground;
   }
 }
+
+/* Fade + scale in */
+@keyframes lotus-fade-scale {
+  0% { opacity: 0; transform: scale(0.8); }
+  100% { opacity: 1; transform: scale(1); }
+}
+.animate-lotus-fade-scale {
+  animation: lotus-fade-scale 0.6s ease-out forwards;
+}
+
+/* Slide from left to center */
+@keyframes lotus-from-left {
+  0% { opacity: 0; transform: translateX(-40px); }
+  100% { opacity: 1; transform: translateX(0); }
+}
+.animate-lotus-from-left {
+  animation: lotus-from-left 0.6s ease-out forwards;
+}
+
+/* Slide from right to center */
+@keyframes lotus-from-right {
+  0% { opacity: 0; transform: translateX(40px); }
+  100% { opacity: 1; transform: translateX(0); }
+}
+.animate-lotus-from-right {
+  animation: lotus-from-right 0.6s ease-out forwards;
+}
+
